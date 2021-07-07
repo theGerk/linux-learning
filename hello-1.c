@@ -4,7 +4,7 @@
 
 int init_module()
 {
-	printk(KERN_INFO "Hello world");
+	printk(KERN_INFO "Hello world\n");
 
 	return 0;
 }
