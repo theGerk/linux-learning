@@ -2,7 +2,7 @@
 #include <linux/kernel.h>       // Needed for KERN_INFO
 
 
-int init_module()
+int init_module(void)
 {
 	printk(KERN_INFO "Hello world\n");
 
@@ -10,7 +10,7 @@ int init_module()
 }
 
 
-void cleanup_module()
+void cleanup_module(void)
 {
 	printk(KERN_INFO "Goodbye world\n");
 }
