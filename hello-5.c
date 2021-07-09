@@ -25,7 +25,7 @@ static int arr_argc = 0;
 
 module_param(myshort, short, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP);
 MODULE_PARM_DESC(myshort, "A short integer");
-module_param(myint, int, S_IRUSR | S_IWUSR | S_IGRP | S_IROTH);
+module_param(myint, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 MODULE_PARM_DESC(myint, "An integer");
 module_param(mylong, long, S_IRUSR);
 MODULE_PARM_DESC(mylong, "A lng integer");
