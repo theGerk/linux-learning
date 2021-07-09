@@ -4,7 +4,7 @@
 
 int init_module(void)
 {
-	printk(KERN_INFO "Hello world\n");
+	printk(KERN_INFO "Hello world 1\n");
 
 	return 0;
 }
@@ -12,6 +12,6 @@ int init_module(void)
 
 void cleanup_module(void)
 {
-	printk(KERN_INFO "Goodbye world\n");
+	printk(KERN_INFO "Goodbye world 1\n");
 }
 
