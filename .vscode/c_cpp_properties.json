@@ -13,7 +13,7 @@
                 "/usr/src/linux-headers-5.8.0-59-generic/include/uapi",
                 "/usr/src/linux-headers-5.8.0-59-generic/include/generated/uapi"
             ],
-            "defines": ["__KERNEL__"],
+        "defines": ["__KERNEL__", "MODULE", "KBUILD_BASENAME='\"startstop.mod\"", "KBUILD_MODNAME='\"startstop\"'"],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
